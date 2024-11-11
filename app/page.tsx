@@ -1,12 +1,9 @@
-import {Inter} from "@next/font/google"
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-})
+import Hero from "./components/Hero";
+
 export default function Home() {
   return (
-    <div className={inter.className}>
-      <h1>Hello FOuad</h1>
+    <div>
+      <Hero/>
     </div>
   );
 }
