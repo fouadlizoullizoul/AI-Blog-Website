@@ -4,7 +4,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="px-4 lg:px-20 xl:px-40 h-[100vh]  ">
+
+      <section className="px-4 lg:px-20 xl:px-40   ">
       {/* LEFT SIDE*/}
       <div className="xl:flex lg:flex md:flex l">
         <div className="flex flex-col xl:w-1/2  lg:border-r-[1px] justify-between  py-9  md:border-r-[1px] sm:border-r-none">
@@ -86,13 +87,13 @@ const Hero = () => {
           <div>
             <Image src="/Icon (2).png" alt="" width={20} height={20} />
           </div>
-          <div className=" flex items-center gap-5">
+          <div className="flex  items-center xl:gap-5 lg:gap-5 md:gap-5 sm:gap-5 max-sm:gap-[15rem]">
             <div>
               <h2>Latest News Updates</h2>
               <p className="text-[#98989A] text-[10px]">Stay Current</p>
             </div>
             <div>
-              <Image src="/Button.png" alt="" width={25} height={25} />
+              <Image src="/Button.png" alt="" width={25} height={25} className="max-sm:w-[2.5rem]"/>
             </div>
           </div>
           <div>
@@ -105,13 +106,13 @@ const Hero = () => {
           <div>
             <Image src="/Group (1).png" alt="" width={20} height={20} />
           </div>
-          <div className=" flex items-center gap-5">
+          <div className=" flex items-center xl:gap-5 lg:gap-5 md:gap-5 sm:gap-5 max-sm:gap-[15rem]">
             <div>
               <h2>Expert Contributors</h2>
               <p className="text-[#98989A] text-[10px]">Trusted Insights</p>
             </div>
             <div>
-              <Image src="/Button.png" alt="" width={25} height={25} />
+              <Image src="/Button.png" alt="" width={25} height={25} className="max-sm:w-[2.5rem]"/>
             </div>
           </div>
           <div>
@@ -124,13 +125,13 @@ const Hero = () => {
           <div>
             <Image src="/Icon (3).png" alt="" width={20} height={20} />
           </div>
-          <div className=" flex items-center gap-5">
+          <div className=" flex items-center xl:gap-5 lg:gap-5 md:gap-5 sm:gap-5 max-sm:gap-[15rem]">
             <div>
               <h2>Global Readership</h2>
               <p className="text-[#98989A] text-[10px]">Worldwide Impact</p>
             </div>
             <div>
-              <Image src="/Button.png" alt="" width={25} height={25} />
+              <Image src="/Button.png" alt="" width={25} height={25} className="max-sm:w-[2.5rem]"/>
             </div>
           </div>
           <div>
@@ -141,6 +142,8 @@ const Hero = () => {
         </div>
       </div>
     </section>
+
+  
   );
 };
 
