@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionTwo = () => {
   return (
-    <section className="flex flex-col xl:flex-row  lg:flex-row justify-between px-4 sm:px-10 lg:px-20 xl:px-40 my-7 min-h-[80vh] items-center gap-10">
+    <section className="flex flex-col xl:flex-row  lg:flex-row justify-between px-4 sm:px-10 lg:px-20 xl:px-40 my-7 min-h-[80vh] items-center gap-10 max-sm:my-20">
       <div className="flex flex-col justify-center flex-1 gap-8 order-2 xl:order-1 lg:order-1 mt-8 xl:mt-0 lg:mt-0">
         <div className="flex flex-col gap-6">
           <Image
