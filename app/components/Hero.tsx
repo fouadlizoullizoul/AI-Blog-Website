@@ -1,8 +1,9 @@
+"use client"
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
-
 const Hero = () => {
+
   return (
 
       <section className="px-4 lg:px-20 xl:px-40   ">
@@ -15,13 +16,11 @@ const Hero = () => {
               Your Journey Tomorrow Begins Here
             </h3>
             <h1 className="text-4xl">
-              Explore the Frontiers of Artificial Intelligence
+            Explore the Frontiers of Artificial Intelligence
             </h1>
-            <p className="text-[#98989A] text-[10px] w-[80%]">
-              Welcome to the epicenter of AI innovation. FutureTech AI News is
-              your passport to a world where machines think, learn, and reshape
-              the future. Join us on this visionary expedition into the heart of
-              AI.
+            
+               <p className="text-[#98989A] text-[10px] w-[80%]">
+               Welcome to the epicenter of AI innovation. FutureTech AI News is your passport to a world where machines think, learn, and reshape the future. Join us on this visionary expedition into the heart of
             </p>
           </div>
           {/* BOTOM SECTION */}

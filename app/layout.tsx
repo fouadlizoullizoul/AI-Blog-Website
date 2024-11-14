@@ -4,7 +4,7 @@ import {Kumbh_Sans} from "next/font/google"
 import TopNav from "./components/TopNav";
 import { ThemeProvider } from "./components/theme-provider";
 import Navabr from "./components/Navabr";
-
+import Footer from "./components/Footer";
 const inter = Kumbh_Sans({
   subsets:['latin'],
   weight: ["400"],
@@ -32,6 +32,7 @@ export default function RootLayout({
         <TopNav/>
         <Navabr/>
         {children}
+        <Footer/>
       </ThemeProvider>
       </body>
     </html>

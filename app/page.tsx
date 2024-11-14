@@ -1,4 +1,3 @@
-import Footer from "./components/Footer";
 import FutureTech from "./components/FutureTech/FutureTech";
 import FutureTechMain from "./components/FutureTech/FutureTechMain";
 import MainSection from "./components/FutureTechBaner/MainSection";
@@ -15,7 +14,6 @@ export default function Home() {
       <SectionOne/>
       <MainSection/>
       <SectionTwo/>
-      <Footer/>
     </div>
   );
 }
